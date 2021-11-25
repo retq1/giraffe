@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.general {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.pre-info {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+    .pre-info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.fast-info {
+    margin-left: 60px;
+    margin-top: 120px;
+}
+
+.giraffe-photo {
+    border-radius: 25px;
+    box-shadow: black 4px 4px 16px;
+    width: 250px;
+}
+
+.pre-fi {
+    color: gold;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.fi {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.next-fi {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.who-is-giraffe {
+    padding-bottom: 25px;
+}
+
+.giraffe-tongue {
+    padding-bottom: 25px;
+}
+
+.giraffe-color {
+    padding-bottom: 25px;
+}
+
+.giraffe-sleep {
+    padding-bottom: 25px;
+}
+
+ .info {
+    background-color: gold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     border: 25px solid gold;
+     border-radius: 30px;
+     margin-bottom: 25px;
+}
+
+ .pre-middle-info {
+     background-color: greenyellow;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     border: 25px solid greenyellow;
+     border-radius: 30px;
+     margin-bottom: 25px;
+ }
+
+ .middle-info {
+     background-color: coral;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     border: 25px solid coral;
+     border-radius: 30px;
+     margin-bottom: 25px;
+ }
+
+ .last-info {
+     background-color: orangered;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     border: 25px solid orangered;
+     border-radius: 30px;
+     margin-bottom: 25px;
+ }
+
+ .send {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+
+ .write-block {
+     background-color: white;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     border: 25px solid mediumpurple;
+     border-radius: 30px;
+     margin-bottom: 25px;
+ }
+
+ .write-block label {
+     font-size: 20px;
+     text-align: center;
+     display: block;
+ }
+
+ .write-email {
+     margin-left: 115px;
+     margin-top: 25px;
+     width: 75%;
+     padding: 10px 0 10px;
+     font-size: 16px;
+     font-family: inherit;
+     border: none;
+     box-sizing: border-box;
+     border-bottom: 2px solid mediumpurple;
+     outline: none;
+ }
+
+ .write-submit  {
+     width: 25%;
+     font-family: inherit;
+     font-size: 20px;
+     background-color: white;
+     cursor: pointer;
+     border: 4px solid mediumpurple;
+     margin-left: 347px;
+     margin-top: 30px;
+ }
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 90px;
+    padding-left: 25px;
+    color: mediumpurple;
+}
+
+.github {
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: purple;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+.write-submit:hover {
+    opacity: 0.9;
+}
